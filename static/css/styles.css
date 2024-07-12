@@ -867,19 +867,19 @@ img.in-text {
   transform: scale(0.98);
   border: 2px solid var(--tertiary);
 }
-.terms-tags li {
+.terms-generic li, .terms-tags li {
   display: inline-block;
   margin: 10px;
   font-weight: 500;
 }
-.terms-tags a {
+.terms-generic a, .terms-tags a {
   display: block;
   padding: 3px 10px;
   background: var(--tertiary);
   border-radius: 6px;
   transition: transform 0.1s;
 }
-.terms-tags a:active {
+.terms-generic a:active, .terms-tags a:active {
   background: var(--tertiary);
   transform: scale(0.96);
 }

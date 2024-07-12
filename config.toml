@@ -2,13 +2,15 @@ author = "cydave"
 title = "PaperMod"
 base_url = "https://cydave.github.io/zola-theme-papermod"
 compile_sass = true
-build_search_index = false
+build_search_index = true 
 generate_feed = true
 minify_html = true
 
 
 taxonomies = [
-    { name = "tags", feed = true }
+    { name = "tags", feed = true },
+    { name = "categories", feed = true },
+    { name = "authors", feed = true }
 ]
 
 [search]

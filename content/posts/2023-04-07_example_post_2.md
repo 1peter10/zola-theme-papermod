@@ -1,9 +1,14 @@
 +++
 title = "Example post 2"
 date = "2023-04-07"
-
+updated = "2024-05-01"
+authors = ["Peter"]
 [taxonomies]
 tags = ["showcase"]
+categories = ["crap"]
+authors = ["Peter"]
+[extra]
+update_note = "This was an important update"
 +++
 
 
